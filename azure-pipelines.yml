@@ -19,3 +19,4 @@ steps:
   displayName: 'Run a multi-line script'
 
 - script: curl https://api-scanner.tinfoilsecurity.com/api/v1/organizations -X GET -H 'Authorization:Token token=0B2FD224A4A9E2D5E916883806C1F887899C811B5EBCEDB78450FBE5F3215CA4, access_key=FDBCDB5570611D0204EAC92698D5C3577955C3EFC20550755467AF4005071B62'
+  displayName: 'Try to curl'
